@@ -11,7 +11,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "imap-simple": "^5.1.0",
-    "mailparser": "^3.8.0",
+    "mailparser": "^3.6.4",
     "playwright": "^1.47.0"
   }
 }
