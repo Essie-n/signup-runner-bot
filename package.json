@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node server.js"
+     "postinstall": "npx playwright install --with-deps"
   },
   "dependencies": {
     "@faker-js/faker": "^9.0.0",
