@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
   "postinstall": "npx playwright install chromium",
-  "start": "npx playwright install-deps chromium && node server.js"
+  "start": "node server.js"
 }
   "dependencies": {
     "@faker-js/faker": "^9.0.0",
