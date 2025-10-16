@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
      "postinstall": "npx playwright install --with-deps"
   },
   "dependencies": {
