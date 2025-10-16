@@ -3,9 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "node server.js",
-     "postinstall": "npx playwright install --with-deps"
-  },
+  "postinstall": "npx playwright install --with-deps chromium",
+  "start": "npx playwright install-deps chromium && node server.js"
+}
+
   "dependencies": {
     "@faker-js/faker": "^9.0.0",
     "axios": "^1.7.2",
